@@ -2,7 +2,7 @@ button{
     border-radius: 100px;
     background-color: rgb(0, 0, 0);
     color:rgb(162, 255, 243);
-    padding: 1cqw 20px;
+    padding: 2cqw 40px;
     cursor: pointer;
     align-items: center;
     margin-left: 40%;
@@ -24,33 +24,51 @@ button{
     color: black;
     font-style:normal;
     margin-top: 0%;
+    font-weight: bolder;
 }
 
 .username{
     font-size: 22px;
-    margin-left: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 8%;
+    padding-top: 0;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
+    font-weight: bolder;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: rgb(69, 149, 254);
 }
 
 .password{
     font-size: 22px;
-    margin-left: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 0;
+    padding-top: 8%;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
+    font-weight: bolder;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: rgb(69, 150, 255);
 }
 
 .username input{
-    
+    height: 30px;
     border-width: 3px;
     margin-top: 50px;
 }
 
 .password input{
+    width: 275px;
+    height: 30px;
     margin-bottom: 30px;
     border-width: 3px;
+    margin-left: 5px;
    
 }
 .login{
@@ -60,4 +78,7 @@ button{
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    background-image: url("img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
