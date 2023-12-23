@@ -25,11 +25,13 @@
 }
 
 .create-username{
+   
     font-size: 22px;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 4%;
+    padding-top: 0%;
+    padding-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
@@ -41,52 +43,59 @@
 .create-password input{
     height: 30px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 250px;
+    margin-left: 20px;
 }
 
 .create-username input{
     height: 30px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .Enter-email input{
     height: 30px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 250px;
+    margin-left: 30px;
 }
 
 .Enter-phone input{
     height: 30px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 250px;
 }
 
 
 .create-password{
+    
     font-size: 22px;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 4%;
+    padding-top: 0%;
+    padding-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
     font-weight: bolder;
     border: 3px solid;
     border-radius: 20px;
-    background-color: rgb(69, 150, 255);
+    background-color: rgb(69, 149, 254);
 }
 
 .Enter-email{
+   
     font-size: 22px;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 4%;
+    padding-top: 0%;
+    padding-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
@@ -97,11 +106,13 @@
 }
 
 .Enter-phone{
+    
     font-size: 22px;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 4%;
+    padding-top: 0%;
+    padding-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-style:normal;
