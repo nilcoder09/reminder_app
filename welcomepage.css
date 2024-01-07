@@ -1,11 +1,62 @@
 .navbar{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
     padding: 0;
-    background-color: rgb(5, 255, 222);
+    background-color: rgb(0, 62, 75);
+    height: 50px;
 }
 
 .navbar li {
+    
     margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.navbar li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 1px solid #ccc; /* Adjust line color */
+    transform: translateX(-50%);
+}
+
+.leftpart,
+.rightpart {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Add your own styles for the content */
+.leftpart {
+    background-color: #f0f0f0; /* Adjust left section background color */
+}
+
+.rightpart {
+    background-color: #ffffff; /* Adjust right section background color */
+    width: 84%;
+}
+
+.description{
+    margin-top: 0px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 380px;
+    background-image: url("back.jpeg");
+    padding-top: 100px;
 }
