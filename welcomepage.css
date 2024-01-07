@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -10,7 +10,7 @@
 
 .navbar li {
     
-    margin-right: 20px; /* Adjust the margin as needed */
+    margin-right: 20px; 
 }
 
 .navbar li a{
@@ -32,7 +32,7 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    border-left: 1px solid #ccc; /* Adjust line color */
+    border-left: 1px solid #ccc; 
     transform: translateX(-50%);
 }
 
@@ -42,13 +42,13 @@
     box-sizing: border-box;
 }
 
-/* Add your own styles for the content */
+
 .leftpart {
-    background-color: #f0f0f0; /* Adjust left section background color */
+    background-color: #f0f0f0; 
 }
 
 .rightpart {
-    background-color: #ffffff; /* Adjust right section background color */
+    background-color: #ffffff; 
     width: 84%;
 }
 
@@ -61,4 +61,103 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+} */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.description {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+button {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.description button a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.leftpart,
+.rightpart {
+    flex: 1;
+}
+
+.leftpart h3,
+.rightpart h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.leftpart ul,
+.rightpart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leftpart ul li,
+.rightpart ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.leftpart b,
+.rightpart b {
+    color: #333;
 }
