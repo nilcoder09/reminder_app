@@ -1,4 +1,4 @@
-button{
+/* button{
     border-radius: 50px;
     background-color: rgb(0, 0, 0);
     color:rgb(162, 255, 243);
@@ -96,4 +96,72 @@ button{
     background-image: url("img1.png");
     background-repeat: no-repeat;
     background-size: cover;   
+} */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3498db;
+    height: 50px;
+    border-radius: 8px 8px 0 0;
+}
+
+.login {
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.username,
+.password {
+    margin: 15px 0;
+    text-align: left;
+}
+
+#user,
+#pass {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#button-to-login,
+#button-to-register {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#button-to-login:hover,
+#button-to-register:hover {
+    background-color: #27ae60;
 }

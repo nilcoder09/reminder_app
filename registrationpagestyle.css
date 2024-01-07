@@ -1,4 +1,4 @@
-.container{
+/* .container{
     width:100%;
     min-height: 100vh;
     background: linear-gradient(105deg, rgb(0, 29, 76), rgb(117, 248, 143));
@@ -132,4 +132,65 @@ button{
     margin-left: 40%;
     margin-top: 30px;
     margin-bottom: 2px;
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration {
+    text-align: center;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.create-username,
+.create-password,
+.Enter-email,
+.Enter-phone {
+    margin: 15px 0;
+    text-align: left;
+}
+
+#create-user,
+#create-pass,
+#create-email {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#button-finish-register {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#button-finish-register:hover {
+    background-color: #45a049;
 }
