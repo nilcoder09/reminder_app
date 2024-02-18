@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Post Login Homepage</title>
-        <link rel="stylesheet" href="mainpagestyle.css">
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Login-DashBoard</title>
+    <link rel="stylesheet" href="mainpagestyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reminders</h1>
+        <form id="taskForm">
+            <label for="task">Task:</label>
+            <input type="text" id="task" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <button type="button" onclick="addTask()">Add Task</button>
+        </form>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

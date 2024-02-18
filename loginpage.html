@@ -10,11 +10,14 @@
 
             </div>
             <div class="login">
+                <form action="login.php" method="post">
                 <p class="heading">Login/Sign Up</p>
-                <p class="username">Username : <input type="text" id="user" size="40" placeholder="Enter username!"></p>
-                <p class="password">Password : <input type="password" id="pass" placeholder="Enter password"></p>
-                <p><a href="registrationpage.html"><button id="button-to-login" >Login</button></a></p>
+                <p class="username">Username : <input type="text" id="user" size="40" name="username" placeholder="Enter username!"></p>
+                <p class="password">Password : <input type="password" id="pass" name="password" placeholder="Enter password"></p>
+                <p><a href="mainpage.html"><button id="button-to-login" type="submit">Login</button></a></p>
                 <p><a href="registrationpage.html"><button id="button-to-register" >New Users Register Here!</button></a></p>
+                </form>
+                
             </div>
         </div>
     </body>
